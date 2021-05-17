@@ -14959,7 +14959,7 @@ Manufacturer with the most adverse events reported: MODERNA
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="2.2-Merging-the-dataframes">2.2 Merging the dataframes<a class="anchor-link" href="#2.2-Merging-the-dataframes">&#182;</a></h3><p>Now that we have preprocessed each dataframe and decided that we will perform analysis for vaccines provided by <b>Moderna</b>, we are going to merge the three dataframes into one. We will also do some processing to ensure that the types of data is in the form that we desire.</p>
+<h3 id="2.2-Merging-the-dataframes">2.2 Merging the dataframes<a class="anchor-link" href="#2.2-Merging-the-dataframes">&#182;</a></h3><p>Now that we have preprocessed each dataframe and decided that we will perform analysis for vaccines provided by <b>Moderna</b>, we are going to merge the three dataframes into one. We will also do some processing to ensure that the types of data is in the form that we want.</p>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
@@ -15235,7 +15235,7 @@ Manufacturer with the most adverse events reported: MODERNA
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="3.1-Look-for-common-symptoms">3.1 Look for common symptoms<a class="anchor-link" href="#3.1-Look-for-common-symptoms">&#182;</a></h3><p>Since there are many possible symptoms from adverse events associated with the vaccine, we want to look for the common symptoms and see the percentage for each. Common symptoms here are defined as symptoms with a frequency of more than 1% out of all the possible symptoms.</p>
+<h3 id="3.1-Look-for-common-symptoms">3.1 Look for common symptoms<a class="anchor-link" href="#3.1-Look-for-common-symptoms">&#182;</a></h3><p>Since there are many possible symptoms from adverse events associated with the vaccine, we want to look for the common symptoms and the frequency for each. Common symptoms here are defined as symptoms with a frequency of more than 1% out of all the possible symptoms.</p>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
@@ -15313,7 +15313,7 @@ Manufacturer with the most adverse events reported: MODERNA
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>From the plot we can see that headache is the most common symptom, with a frequency of 4.16%, followed by pyrexia with 3.53%, and then chills with 3.14%. We can also see that death as a result of adverse events has a frequency of 1.10%. However, it is noteworthy that this is out of all adverse events reported but not out of all vaccinated individual. From the distribution of the different symptoms, we can see that besides the four leading common symptoms, types of symptoms seem to be pretty spread out. Common symptoms have frequency around 1 to 4 percent, while most of the symptoms have frequency below 1%.</p>
+<p>From the plot we can see that headache is the most common symptom, with a frequency of 4.16%, followed by pyrexia with 3.53%, and then chills with 3.14%. We can also see that death as a result of adverse events has a frequency of 1.10%. However, it is noteworthy that this is out of all adverse events reported but not out of all vaccinated individuals. From the distribution of the different symptoms, we can see that besides the four leading common symptoms, types of symptoms seem to be pretty spread out. Common symptoms have frequency around 1 to 4 percent, while most of the symptoms have frequency below 1%.</p>
 
 </div>
 </div>
@@ -15380,13 +15380,13 @@ Manufacturer with the most adverse events reported: MODERNA
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>From the pie chart based on age groups, we can see that 45.39% of patients are young adults. This is quite surprising, as many might expect older individuals to be more prone to adverse events. One possible explanation might be that young adults have stronger immune system and hence react more strongly to vaccines. Another possible explanation is that young adults make up a large portion of vaccinated individuals and hence resulted in more adverse events. Elders and mid age individuals make up about the same percentage, one with 26.81% and the other with 27.63%. From the pie chart based on sex, we can tell that females take up a significantly larger portion with 72.79%. This might suggest that females are more prone to adverse events associated with the COVID-19 vaccine.</p>
+<p>From the pie chart based on age groups, we can see that 45.39% of patients are young adults. This is quite surprising, as many might expect older individuals to be more prone to adverse events. One possible explanation might be that young adults have stronger immune system and hence react more strongly to vaccines. Another possible explanation is that young adults make up a large portion of vaccinated individuals and hence resulted in more adverse events. Elders and mid age individuals make up about the same percentage, one with 26.81% and the other with 27.63%. From the pie chart based on sex, we can tell that females take up a significantly larger portion with 72.79%. This might suggest that females are more prone to adverse events associated with the Moderna COVID-19 vaccine.</p>
 
 </div>
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="3.3-Associations-with-sex-and-age-groups-conditioned-on-time">3.3 Associations with sex and age groups conditioned on time<a class="anchor-link" href="#3.3-Associations-with-sex-and-age-groups-conditioned-on-time">&#182;</a></h3><p>From the previous exploratory analysis, we see that age groups and sex could possibly affect the number of patients who have experienced adverse events. Hence, we want to explore whether this is true by plotting the number of patients conditioned on time, age groups, and sex. Here we are trying find out how the different classifications (age groups, sex) might affect the number of patients.</p>
+<h3 id="3.3-Associations-with-sex-and-age-groups-conditioned-on-time">3.3 Associations with sex and age groups conditioned on time<a class="anchor-link" href="#3.3-Associations-with-sex-and-age-groups-conditioned-on-time">&#182;</a></h3><p>From the previous exploratory analysis, we see that age groups and sex could possibly affect the number of patients who have experienced adverse events. Hence, we want to explore whether this is true by plotting the number of patients conditioned on time, age groups, and sex. Here we are trying find out how the different classifications (age groups, sex) might affect the number of patients across time.</p>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
@@ -15592,7 +15592,7 @@ Manufacturer with the most adverse events reported: MODERNA
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="4.1-Linear-Regression">4.1 Linear Regression<a class="anchor-link" href="#4.1-Linear-Regression">&#182;</a></h3><p>From the exploratory data analysis, we observed that sex, age groups, and time seem to have effects on the number of patients with adverse events. Here I form the hypothesis that sex, age groups, and time have linear relationships with the number of patients. We will set the significance level to be 0.05. We are going to build and train a linear regression model using these three terms to test our hypothesis. We choose to use linear regression here because we want to find a simple and general trend for the relationship. While a polynomial regression might result in better predictive power, it is also more prone to overfitting.</p>
+<h3 id="4.1-Linear-Regression">4.1 Linear Regression<a class="anchor-link" href="#4.1-Linear-Regression">&#182;</a></h3><p>From the exploratory data analysis, we observed that sex, age groups, and time seem to have effects on the number of patients with adverse events. Here I form the hypothesis that sex, age groups, and time have linear relationships with the number of patients. We will set the significance level to be 0.05. We are going to build and train a linear regression model using these three terms to test our hypothesis. We choose to use linear regression here because we want to find a more simple and general trend for the relationship. While a polynomial regression might result in better predictive power, it is also more prone to overfitting.</p>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
@@ -15755,7 +15755,7 @@ Accuracy of the test set = 0.49420062620310434
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="4.2-Linear-Regression-with-Interaction-Terms">4.2 Linear Regression with Interaction Terms<a class="anchor-link" href="#4.2-Linear-Regression-with-Interaction-Terms">&#182;</a></h3><p>Our previous attempt on looking for a linear regression was not very successive. So let's try a possible way that might improve our model. From the 'Number of patients conditioned on time' graph that we created earlier, we can see that it seems like age groups have an effect on changing the trend of the the dependent variable. Hence, adding interaction terms for age groups and time might be able to make the model better.</p>
+<h3 id="4.2-Linear-Regression-with-Interaction-Terms">4.2 Linear Regression with Interaction Terms<a class="anchor-link" href="#4.2-Linear-Regression-with-Interaction-Terms">&#182;</a></h3><p>Our previous attempt on looking for a linear regression was not very successful. So let's try another way that might improve our model. From the 'Number of patients conditioned on time' graph that we created earlier, we can see that it seems like age groups have an effect on changing the trend of the the dependent variable. Hence, adding interaction terms for age groups and time might be able to make the model better.</p>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
@@ -15888,13 +15888,13 @@ Accuracy of the test set = 0.654434163739847
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Based on the t-test result, we can see that the p-values for Young Adult, M (Male), and month_Young Adult are are below or around 0.05. If we loosly consider our significance level to be 0.05, we would reject the null hypothesis for no relationship and conclude that the parameters for Young Adult, M (Male), and month*Young Adult have a linear relationship with the dependent variable. By predicting using the training set and the testing set, we can see that they again have similar accuracy, which tells us that the model is not overfitting. The accuracy for the model with interaction terms is around 0.66, which is slightly higher than the accuracy for the model without interaction terms.</p>
+<p>Based on the t-test result, we can see that the p-values for Young Adult, M (Male), and month_Young Adult are all below or around 0.05. If we loosly consider our significance level to be 0.05, we would reject the null hypothesis for no relationship and conclude that the parameters for Young Adult, M (Male), and month*Young Adult have a linear relationship with the dependent variable. By predicting using the training set and the testing set, we can see that they again have similar accuracy, which tells us that the model is not overfitting. The accuracy for the model with interaction terms is around 0.66, which is slightly higher than the accuracy for the model without interaction terms.</p>
 
 </div>
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>From traning a linear regression both with and without interaction terms, we can see that the models do not fully support our hypothesis that sex, age groups, and time have linear relationships with the number of patients. However, you still observed that young adult seems to have a pretty strong relationship with the number of patients in both models and that sex (male) have a weak relationship with the number of patients in the model with interaction terms. We also learned that adding interaction terms help improve the predictive power of the linear regression model.</p>
+<p>From traning a linear regression both with and without interaction terms, we can see that the models do not fully support our hypothesis that sex, age groups, and time have linear relationships with the number of patients. However, we still observed that the parameter 'Young Adult' seems to have a pretty strong relationship with the number of patients in both models and that 'M' (representing sex) has a weak relationship with the number of patients in the model with interaction terms. We also learned that adding interaction terms help improve the predictive power of the linear regression model.</p>
 
 </div>
 </div>
